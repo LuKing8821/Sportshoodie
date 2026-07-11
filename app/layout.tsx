@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Vantawear | B2B 定制运动 Hoodie",
-  description: "面向品牌、赛事与企业团队的定制运动 Hoodie 方案。",
+  title: "Vantawear | B2B Custom Athletic Hoodies",
+  description: "Premium custom athletic hoodies for brands, events, and corporate teams.",
   openGraph: {
-    title: "Vantawear | B2B 定制运动 Hoodie",
-    description: "为团队打造的品牌装备。",
+    title: "Vantawear | B2B Custom Athletic Hoodies",
+    description: "Brand-ready teamwear for teams that move.",
     images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vantawear | B2B 定制运动 Hoodie",
-    description: "为团队打造的品牌装备。",
+    title: "Vantawear | B2B Custom Athletic Hoodies",
+    description: "Brand-ready teamwear for teams that move.",
     images: ["/og.png"],
   },
   icons: {
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
