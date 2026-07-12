@@ -28,6 +28,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
     },
+    {
+      url: `${baseUrl}/factory`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
     ...solutionSlugs.map((slug) => ({
       url: `${baseUrl}/solutions/${slug}`,
       lastModified: new Date(),
