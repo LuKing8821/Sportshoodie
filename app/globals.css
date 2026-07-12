@@ -1,5 +1,5 @@
 @import "tailwindcss";
-main .hero .brand:first-child{width:120px!important;height:64px!important;margin-left:0!important;background-size:108px 108px!important;background-position:center center!important}main footer.wrap .brand:first-child{width:168px!important;height:78px!important;background-size:162px 162px!important;background-position:center center!important}
+main .hero .brand:first-child{width:120px!important;height:64px!important;margin-left:0!important;background-size:108px 108px!important;background-position:center center!important}main footer.wrap .brand:first-child{width:120px!important;height:64px!important;background-size:108px 108px!important;background-position:center center!important}
 @media(max-width:800px){main .hero .brand:first-child,main footer .brand:first-child{width:108px!important;height:50px!important;background-size:125px 125px!important}}
 .torso span{transform:translateY(-48px)}
 .torso:before{top:166px!important}
