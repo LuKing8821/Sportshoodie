@@ -1,4 +1,9 @@
 @import "tailwindcss";
+main section#top>nav.nav.wrap>a.brand:first-child{flex:0 0 300px!important;width:300px!important;height:92px!important;margin-left:-34px!important;background-size:315px 315px!important;background-position:center 42%!important}
+main section#top>nav.nav.wrap{height:118px!important}
+main footer.wrap>a.brand:first-child{width:150px!important;height:72px!important;background-size:140px 140px!important;background-position:center center!important}
+@media(max-width:800px){main section#top>nav.nav.wrap{height:96px!important}main section#top>nav.nav.wrap>a.brand:first-child{flex-basis:190px!important;width:190px!important;height:74px!important;margin-left:-22px!important;background-size:230px 230px!important}main footer.wrap>a.brand:first-child{width:132px!important;height:62px!important;background-size:130px 130px!important}}
+@media(max-width:500px){main section#top>nav.nav.wrap{height:80px!important}main section#top>nav.nav.wrap>a.brand:first-child{flex-basis:132px!important;width:132px!important;height:62px!important;margin-left:-18px!important;background-size:172px 172px!important}main footer.wrap>a.brand:first-child{width:116px!important;height:54px!important;background-size:116px 116px!important}}
 main .hero .brand:first-child{width:168px!important;height:78px!important;margin-left:0!important;background-size:162px 162px!important;background-position:center center!important}main footer.wrap .brand:first-child{width:120px!important;height:64px!important;background-size:108px 108px!important;background-position:center center!important}
 @media(max-width:800px){main .hero .brand:first-child,main footer .brand:first-child{width:108px!important;height:50px!important;background-size:125px 125px!important}}
 .torso span{transform:translateY(-48px)}
