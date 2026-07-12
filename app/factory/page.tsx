@@ -87,6 +87,37 @@ export default function FactoryPage() {
         </p>
       </section>
 
+      <section className="factory-capabilities">
+        <div className="wrap factory-capability-head">
+          <p className="eyebrow">DESIGN · CUSTOM · PRODUCTION</p>
+          <h2>Real factory space behind every custom program.</h2>
+          <p>
+            Buyers can see where ideas become samples, where fabric becomes cut parts,
+            and where hoodie orders move through sewing, finishing, inspection, and packing.
+          </p>
+        </div>
+        <div className="wrap factory-capability-grid">
+          <article>
+            <img src="/factory/design-studio.jpg" alt="Design studio and sample development room at Yinshan Garments" />
+            <span>01 DESIGN</span>
+            <h3>Design and sample development</h3>
+            <p>Concept review, pattern planning, fit adjustment, trims, labels, and sample details are handled before bulk production.</p>
+          </article>
+          <article>
+            <img src="/factory/cutting-center.jpg" alt="Cutting center at Yinshan Garments Factory" />
+            <span>02 CUSTOM</span>
+            <h3>Custom details made production-ready</h3>
+            <p>Logo placement, printing, embroidery, color blocking, fabric choices, packaging, and size planning are translated into repeatable specs.</p>
+          </article>
+          <article>
+            <img src="/factory/sewing-line.jpg" alt="Sewing production line at Yinshan Garments Factory" />
+            <span>03 PRODUCTION</span>
+            <h3>Controlled sewing and finishing</h3>
+            <p>Cutting, sewing, pressing, inspection, packing, and delivery stay connected so teamwear and brand orders remain consistent.</p>
+          </article>
+        </div>
+      </section>
+
       <section className="factory-process">
         <div className="wrap">
           <p className="eyebrow">PRODUCTION FLOW</p>
